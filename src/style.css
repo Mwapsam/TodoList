@@ -55,6 +55,7 @@ section {
 .task {
   display: flex;
   justify-content: space-between;
+  background-color: yellow;
 }
 
 .todo .tasks {
@@ -85,4 +86,27 @@ input::placeholder {
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+
+p {
+  transition: transform 0.5s ease;
+}
+
+.dragStart {
+  opacity: 0.9;
+  /*transform: scale(0.85);*/
+  background-color: white;
+  border: 1px dotted blue;
+}
+
+.depot {
+  /* height: 200px;
+  width: 400px;
+  background-color: yellowgreen;
+  padding: 30px;*/
+  padding: 20px;
+}
+
+.dragSurvol {
+  background-color: thistle;
 }
